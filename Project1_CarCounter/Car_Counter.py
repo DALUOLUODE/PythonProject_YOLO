@@ -5,7 +5,6 @@ import cvzone
 import math
 import sort
 
-print("hello world")
 cap = cv2.VideoCapture('../Videos/cars.mp4')
 
 model = YOLO('../Yolo_Weights/yolov8n.pt').to('cuda')
