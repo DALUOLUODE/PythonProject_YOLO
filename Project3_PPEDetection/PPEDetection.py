@@ -3,6 +3,7 @@ import cvzone
 import math
 from ultralytics import YOLO
 
+# Personal Protective Equipment Detection
 # for webcam
 # cap=cv2.VideoCapture(0)
 # cap.set(3,1280)
