@@ -20,8 +20,12 @@ classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "trai
               "microwave", "oven", "toaster", "sink", "refrigerator", "book", "clock", "vase", "scissors",
               "teddy bear", "hair drier", "toothbrush"
               ]
-
+# original mask
 mask=cv2.imread('mask.png')
+
+# cursor mask
+# mask=cv2.imread('Project1_CarCounter/mask.png')
+
 # tracking
 tracker = sort.Sort(max_age= 20,min_hits= 3,iou_threshold= 0.3)
 limits=[400,297,673,297]
